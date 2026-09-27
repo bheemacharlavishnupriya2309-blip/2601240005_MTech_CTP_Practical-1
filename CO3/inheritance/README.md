@@ -1,18 +1,8 @@
-give objective,input,output,algorithm,time complexity
-
-Done. I created the complete README.md file in one file, ready to paste/upload to GitHub.
-
-Download README.md 
-
-README.md
-Document
-give objective,input,output,algorithm,time complexity
-Applying Inheritance to Banking Scenario
-Objective
+**Objective**
 
 To demonstrate inheritance in Object-Oriented Programming by creating a common BankAccount class and deriving SavingsAccount and CurrentAccount classes from it, while implementing different withdrawal rules for each account type.
 
-Input
+**Input**
 Account holder name
 Account number
 Initial account balance
@@ -26,7 +16,8 @@ Account Number: 101
 Balance: 10000
 Withdrawal Amount: 2000
 Account Type: Savings
-Output
+
+**Output**
 Account holder details
 Account number
 Updated balance
@@ -38,7 +29,8 @@ Initial Balance: 10000
 Withdrawal Amount: 2000
 Updated Balance: 8000
 Withdrawal Successful
-Algorithm
+
+**Algorithm**
 Create a parent class named BankAccount.
 Store common attributes such as:
 Account holder name
@@ -52,7 +44,8 @@ Read the withdrawal amount.
 Check whether the withdrawal is allowed according to the account type.
 If allowed, subtract the amount from the balance.
 Display the updated account details and withdrawal status.
-Time Complexity
+
+**Time Complexity**
 Creating an account: O(1)
 Checking withdrawal condition: O(1)
 Updating balance: O(1)
