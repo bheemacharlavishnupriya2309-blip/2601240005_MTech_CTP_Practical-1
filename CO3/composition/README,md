@@ -1,0 +1,36 @@
+
+
+## Objective
+
+To demonstrate composition in Object-Oriented Programming by creating an `Order` object that contains multiple `Product` objects and a `Payment` object, representing a strong has-a relationship.
+
+## Problem Statement
+
+An e-commerce order contains multiple product objects. An order also has a payment object to handle the payment process.
+
+Composition is used to model this relationship, where the `Order` class contains `Product` and `Payment` objects as its members.
+
+## Input
+
+- Product name
+- Product price
+- Product quantity
+- Number of products
+- Payment amount
+
+### Example Input
+
+```text
+Number of Products: 2
+
+Product 1:
+Name: Laptop
+Price: 50000
+Quantity: 1
+
+Product 2:
+Name: Mouse
+Price: 1000
+Quantity: 2
+
+Payment Amount: 52000
