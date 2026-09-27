@@ -3,6 +3,7 @@
 To demonstrate inheritance in Object-Oriented Programming by creating a common BankAccount class and deriving SavingsAccount and CurrentAccount classes from it, while implementing different withdrawal rules for each account type.
 
 **Input**
+
 Account holder name
 Account number
 Initial account balance
@@ -18,6 +19,7 @@ Withdrawal Amount: 2000
 Account Type: Savings
 
 **Output**
+
 Account holder details
 Account number
 Updated balance
@@ -31,6 +33,7 @@ Updated Balance: 8000
 Withdrawal Successful
 
 **Algorithm**
+
 Create a parent class named BankAccount.
 Store common attributes such as:
 Account holder name
@@ -46,6 +49,7 @@ If allowed, subtract the amount from the balance.
 Display the updated account details and withdrawal status.
 
 **Time Complexity**
+
 Creating an account: O(1)
 Checking withdrawal condition: O(1)
 Updating balance: O(1)
